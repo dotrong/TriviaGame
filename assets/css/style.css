@@ -1,0 +1,59 @@
+h1,h3,p {
+
+	color: white;
+}
+
+p{
+
+	font-size: 16px;
+}
+
+p.result {
+
+	font-weight: 2px;
+	font-size: 150%;
+}
+
+.container {
+
+	
+	width: 960px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+button {
+
+	margin: 10px;
+}
+
+a {
+
+	display: block;
+	padding: 10px;
+	margin:10px auto;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	width: 50%;
+}
+
+a.selected {
+
+	background-color: yellow;
+	color: blue;
+}
+
+a.correct-answer {
+
+	background-color: red;
+	color: yellow;
+}
+
+body {
+
+	background: url('../images/background.jpg');
+	background-position: center;
+	background-repeat: none;
+}
